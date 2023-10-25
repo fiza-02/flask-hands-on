@@ -45,7 +45,7 @@ python app.py
 -------------
 
 Access the application in your web browser:
-http://localhost:5000/
+http://localhost:3000/
 
 # Usage
 The web page will display the data from the "Devices" table in a sortable table format.
