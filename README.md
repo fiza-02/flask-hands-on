@@ -1,7 +1,8 @@
 # python-project_flask
 Assignment for python flask learning
-[![Uploading Devices_demo.gif…]()](https://github02.hclpnp.com/storage/user/2187/files/17f45cd6-0a23-4c79-903c-d53d8f02dc83
-)
+
+https://github02.hclpnp.com/storage/user/2187/files/b54c41fa-2723-4f9d-84ec-fa8049c1be10
+
 
 # Flask Application README
 
