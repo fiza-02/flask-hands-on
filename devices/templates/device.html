@@ -1,0 +1,28 @@
+{% extends "layout.html" %}
+{% block content %}
+<table id="devices-table" class="table table-bordered table-sm table-responsive-sm">
+    <thead class="thead-light">
+        <tr>
+            <th><a href="?column=DeviceID&order={{ 'desc' if column == 'DeviceID' and order == 'asc' else 'asc' }}">Device
+                    ID</a></th>
+            <th><a href="?column=DeviceName&order={{ 'desc' if column == 'DeviceName' and order == 'asc' else 'asc' }}">Device
+                    Name</a></th>
+            <th><a href="?column=DeviceType&order={{ 'desc' if column == 'DeviceType' and order == 'asc' else 'asc' }}">Device
+                    Type</a></th>
+            <th><a
+                    href="?column=DeviceLocation&order={{ 'desc' if column == 'DeviceLocation' and order == 'asc' else 'asc' }}">Device
+                    Location</a></th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for device in devices %}
+        <tr>
+            <td>{{ device.DeviceID }}</td>
+            <td>{{ device.DeviceName }}</td>
+            <td>{{ device.DeviceType }}</td>
+            <td>{{ device.DeviceLocation }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% endblock content %}
