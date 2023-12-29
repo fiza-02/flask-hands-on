@@ -1,7 +1,6 @@
 # python-project_flask
 Assignment for python flask learning
 
-https://github02.hclpnp.com/storage/user/2187/files/b54c41fa-2723-4f9d-84ec-fa8049c1be10
 
 
 # Flask Application README
